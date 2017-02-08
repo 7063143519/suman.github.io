@@ -1,0 +1,164 @@
+/*for totorial*/
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+#mar1
+{
+    width:100%;
+    height:10%;
+    background-color:#001e3b;
+    position:absolute;
+    top:0%;
+    left:0%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    filter: brightness(100%);
+}
+#f1
+{
+    font-size: 35px;
+    text-align: center;
+    color:white;
+    position:fixed;
+    top:2%;
+    left:15%;
+}
+#f2
+{
+    font-size: 33px;
+    text-align: center;
+    color:white;
+    position:fixed;
+    top:2%;
+    left:50%;
+}
+#mar1 img
+{
+  width:12%;
+  height:10%;
+  position:fixed;
+  top:0%;
+  left:30%;
+  border-radius:100%;
+  z-index:1000;
+  -webkit-filter: brightness(7);
+}
+#mar2
+{
+    width:80%;
+    height:80%;
+    background-color: aquamarine;
+    position:absolute;
+    top:10%;
+    left:0%;
+}/*for notification*/
+#noti1
+{
+    width:20%;
+    height:10%;
+    background-image: url("PHOTO/frasne_village.jpg");
+    position:absolute;
+    top:10%;
+    right:0% ;
+    text-align: center;
+    font-size: 30px;
+    text-decoration-style: double;
+    color:cyan;
+}
+#noti2
+{
+    width:20%;
+    height:70%;
+    background-color: #5E1432;
+    position:absolute;
+    top:20%;
+    right:0%   
+}/*for bottom size */
+#bottom
+{
+    width:100%;
+    height:10%;
+    background-color:#001e3b;
+    position:fixed;
+    bottom:0%;
+    left:0%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    filter: brightness(100%);
+} 
+/*for right to left*/ 
+#slider1
+{
+    width: 100%; 
+    height:100%; 
+    position:absolute;
+    left:0%;
+    top:0%;
+    z-index:5;
+    direction=left;
+}
+/*for down to up*/ 
+#slider2
+{
+    width: 100%; 
+    height:100%; 
+    position:absolute;
+    left:0%;
+    bottom:0%;
+    z-index:10;
+    direction=left;
+}
+img
+{
+    width:1500px; 
+    height:523px;  
+}
+#link1 ul li{
+            background-color:#6d505f;
+            width:10%;
+            height:7%;
+            line-height:40px;
+            text-align:center;
+            float: left;
+            border: 1px;
+            position:relative;
+            border-radius: 15px;
+            margin:10px;
+            left:70%;
+            bottom:0%;
+           z-index:1000;
+           }	
+#bottom ul li{
+            background-color:#6d505f;
+            width: 120px;
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+            float:left;
+            border: 1px;
+            position:relative;
+            border-radius:15px;
+            margin:10px;
+            left:25%;
+            top:0%;
+            padding:0px;
+           }
+font
+{
+    font-size:15px;
+    color: white;
+}
+a.nounderline:link  
+{  
+ text-decoration:none;  
+} 
+a
+{
+    color: white;
+}
+i
+{
+    color: #6db376;
+}

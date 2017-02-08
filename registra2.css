@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+     background-color: #5E1432;
+}
+img
+{
+    width: 300px; 
+    height: 70px;   
+    border-radius: 100%;
+    position:absolute;
+    left:350px;
+    top:10px;
+}
+/*for 1 table*/
+#table1
+{
+    height:1100px;
+    width: 800px;
+    position:absolute;
+    left:50px;
+    top:100px; 
+    background-color:#001e3b;
+}
+/*for 2 table*/
+table
+{
+    height:100px;
+    width: 800px;
+    position:absolute;
+    left:40px;
+    top:800px; 
+    background-color: bisque;
+}
+td
+{
+    width:700px;
+    height:50px;
+}
+button
+{
+    width: 140px;
+    height: 30px;
+    background-color:brown;
+    border-radius: 5px;
+    position: absolute;
+    left:200p;
+    bottom:-60px;
+    
+}
+/*for whole form*/
+#form_ma
+{
+    height:1300px;
+    width: 1000px;
+    position:absolute;
+    left:180px;
+    top:0px; 
+    background-color:#001e3b;
+}
+hr
+{
+  color:white;
+  position: absolute;
+  left:140px;
+  width: 700px;
+}
+font
+{
+    font-size: 20px;
+    color: white;
+}
+.textbox
+{
+    width: 250px;
+    height: 30px;
+    border-radius: 5%;
+}
